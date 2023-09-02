@@ -1,0 +1,209 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Jost', sans-serif !important;
+    background-color: #000;
+    color: white;
+    text-transform: capitalize;
+}
+
+.p-70 {
+    padding: 70px 0;
+}
+
+.courses {
+    color: white;
+}
+
+
+/* home */
+.home {
+    height: 100vh;
+    background-image: url(../img/images2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.home .overlay {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
+
+
+.home .text_home {
+    color: #fff;
+    text-align: center;
+}
+
+.home .text_home h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 0px 0px 20px #000;
+}
+
+/*  */
+
+
+/* header */
+
+.header {
+    background-color: transparent;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.header2 {
+    position: fixed;
+    top: -70px;
+    left: 0;
+    transform: translateY(70px);
+    transition: all .4s;
+    background-color: black !important;
+    z-index: 1;
+}
+
+.header .navbar .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.header .navbar .social {
+    margin-left: 25px;
+}
+
+.header .navbar .social a {
+    margin: 0 15px;
+}
+
+.header .navbar-light .navbar-nav .active>.nav-link {
+    color: #f25454;
+}
+
+.mainMenu {
+    position: relative;
+}
+
+.mainMenu .menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 220px;
+    box-shadow: 0px 0px 20px white;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+.mainMenu:hover .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 45px;
+}
+
+.mainMenu .menu a {
+    color: #000;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 5px;
+}
+
+.mainMenu .menu a:last-child {
+    border: none;
+}
+
+
+
+/* login */
+
+.login .home {
+    background-image: url(../img/images2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    color: black !important;
+}
+
+
+.login .home .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    top: 0;
+    z-index: -1;
+}
+
+.login .home .card {
+    border-radius: 20px 80px;
+    padding: 60px;
+    background-color: #f1f1f1;
+}
+
+.login .home .btn_login {
+    padding: 5px 15px;
+    border-radius: 20px 40px;
+    background-color: transparent;
+    border: 1px solid rgba(80, 80, 255, 0.795);
+    transition: all .3s;
+}
+
+.login .home .btn_login:hover {
+    background-color: rgba(80, 80, 255, 0.795);
+    box-shadow: 0 0 20px rgba(80, 80, 255, 0.795);
+    color: white;
+}
+.table{
+    border-radius: 20px 40px !important;
+    /* background-color: rgba(3, 3, 3, 0.849) !important; */
+    background: #f1f1f1 !important;
+}
+
+/* home */
+
+/* .home .home{
+    background-image: url(../img/images3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.home .home .overlay{
+width: 100%;
+position: absolute;
+height: 100%;
+top: 0;
+background-color: rgba(0, 0, 0, .8);
+z-index: -1;
+}
+.home .home h1{
+    color: white;
+} */
